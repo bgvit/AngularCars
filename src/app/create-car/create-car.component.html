@@ -1,0 +1,14 @@
+<h3>Adicionar Carro</h3>
+<div [hidden]="submitted" style="width: 400px;">
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="name" required [(ngModel)]="car.name" name="name">
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
+
+<div hidden="!submitted">
+    <h4>Carro cadastrado com sucesso</h4>
+</div>

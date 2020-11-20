@@ -1,0 +1,11 @@
+<h2>Car Detail</h2>
+<hr/>
+<div *ngIf="car">
+    <div>
+        <label><b>Name: </b></label> {{car.name}}
+    </div>
+</div>
+<br>
+<br>
+<button (click)="listCars()" class="bt bt-primary"> Back to Car List</button>
+<br>

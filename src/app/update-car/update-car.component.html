@@ -1,0 +1,12 @@
+<h3>Update Car</h3>
+<div style="width: 400px;">
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="name">
+                Nome
+            </label>
+            <input type="text" class="form-control" id="nome" required [(ngModel)]="car.name" name="name">
+        </div>
+        <button type="submit" class="btn btn-success">Set</button>
+    </form>
+</div>
