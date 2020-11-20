@@ -1,4 +1,4 @@
-# FirstAngularProject
+# AngularCars
 
 This project consists in a CRUD front-end for my Cars-API. I used my simplified version of API written in Kotlin: [kotlinCarsApi](https://github.com/bgvit/kotlinCarsApi)
 
